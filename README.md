@@ -16,6 +16,7 @@ YOGLOOP requires 6-column BEDPE files, with each chromosome stored as a separate
 ## 2. Generate Background Interaction Matrix
 This background matrix is used for subsequent normalization of interaction matrices. Note that the background matrix size must match the matrices generated in later steps.  
 `sh ~/yogloop/bin/yogloop_bg.sh -d ./yo_out/ -g A01.fai -t 10`  
+  
 <img width="226" height="226" alt="image" src="https://github.com/user-attachments/assets/bf09e669-1b90-4acc-88f1-761553535563" />
 
 ## 3. Generate Heatmaps Centered on Each Gene
@@ -34,6 +35,7 @@ For manual data annotation and model training, refer to the [Ultralytics YOLO Do
 ## 6. Generate Single Heatmap with YOGLOOP  
 This script supports three modes: standard heatmap, Gaussian-smoothed enhanced heatmap, and distance-corrected heatmap.  
 `sh ~/yogloop/scripts/yogloop_view.sh -i yo_out -c A01 -s 100000 -e 120000 -m gaussian`  
+  
 <img width="246" height="246" alt="image" src="https://github.com/user-attachments/assets/b2a7c76a-b6af-48a4-a1e2-afbaa7ca3379" />
 
 ## 7. Generate Loop Enrichment Heatmap (APA Plot)  
@@ -41,4 +43,6 @@ This script supports three modes: standard heatmap, Gaussian-smoothed enhanced h
 
 ## 8. Generate Mini-Loop Enrichment Heatmap  
 `sh ~/yogloop/scripts/yogloop_strip.sh -l miniloop.bed -f yo_out -t 10`  
+
+    
 
