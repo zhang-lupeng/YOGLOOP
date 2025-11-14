@@ -2,7 +2,7 @@
 YOGLOOP is a software for identifying short-range chromatin loops.    
 # Install    
 
-`git clone [<repository-url>](https://github.com/zhang-lupeng/YOGLOOP.git)  `  
+`git clone https://github.com/zhang-lupeng/YOGLOOP.git`    
 `conda create -n YOGLOOP  `  
 `conda install python=3.1  `  
 `pip install ultralytics==8.3.51  `
