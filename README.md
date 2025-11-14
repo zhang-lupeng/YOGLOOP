@@ -39,5 +39,7 @@ sh ~/yogloop/scripts/yogloop_view.sh -i yo_out -c A01 -s 100000 -e 120000 -m gau
 ## 7. Generate Loop Enrichment Heatmap (APA Plot)  
 sh ~/yogloop/scripts/yogloop_APA.sh -l raw_loop.bedpe -f yo_out/A01.bedpe -o APA_plot  
 
-8. Generate Mini-Loop Enrichment Heatmap  
-sh ~/yogloop/scripts/yogloop_strip.sh -l miniloop.bed -f yo_out -t 10  
+## 8. Generate Mini-Loop Enrichment Heatmap  
+···
+sh ~/yogloop/scripts/yogloop_strip.sh -l miniloop.bed -f yo_out -t 10
+···  
