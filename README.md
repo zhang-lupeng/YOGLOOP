@@ -1,13 +1,13 @@
 # YOGLOOP
 YOGLOOP is a software for identifying short-range chromatin loops.    
-#Install    
+# Install    
 
-git clone <repository-url>  
-  conda create -n YOGLOOP  
-  conda install python=3.1  
-  pip install ultralytics==8.3.51  
+··· git clone <repository-url>  
+conda create -n YOGLOOP  
+conda install python=3.1  
+pip install ultralytics==8.3.51···  
 
-#Usage
+# Usage
 
 1. Data Format Preparation
 YOGLOOP requires 6-column BEDPE files, with each chromosome stored as a separate file in the yo_out directory. We provide a script to convert HiC-Pro's allValidPairs into BEDPE format.  
